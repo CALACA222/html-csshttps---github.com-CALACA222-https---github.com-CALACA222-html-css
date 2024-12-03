@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "bra";
+  src: url("Fonts/Sora-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "bra";
+  src: url("Fonts/Sora-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "bra";
+  src: url("Fonts/Sora-SemiBold.ttf") format("truetype");
+  font-weight: 700;
+}
