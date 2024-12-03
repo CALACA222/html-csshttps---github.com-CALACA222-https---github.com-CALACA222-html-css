@@ -1,0 +1,15 @@
+div {
+  background: red;
+  width: 200px;
+  height: 200px;
+}
+h1 {
+  background: blue;
+}
+form {
+  width: 200px;
+  background: red;
+}
+input {
+  width: 50%;
+}
