@@ -1,0 +1,21 @@
+body {
+  background-color: red;
+  margin: 0;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(transparent, #000);
+  margin: 0;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 20px;
+  border-top: 6px solid #900;
+}
+h1 {
+  color: #fff;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
