@@ -1,0 +1,10 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: hsl(0, 13%, 54%);
+  margin: 20px;
+  margin-left: 150px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
