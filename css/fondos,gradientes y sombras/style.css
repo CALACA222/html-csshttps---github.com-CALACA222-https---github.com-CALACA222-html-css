@@ -1,0 +1,24 @@
+body {
+  background-color: #0f0;
+}
+.box {
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+  margin: 0;
+  background-image: url(https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis-768x439.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+.opaco {
+  width: 100%;
+  height: 100%;
+  background-color: #f005;
+}
+h2 {
+  color: #fff9;
+  margin: 0;
+  padding: 20px 280px;
+}
