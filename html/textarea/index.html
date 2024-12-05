@@ -10,14 +10,21 @@
   <form>
     <h2>Formulario De Contacto</h2>
     <div class="form-input">
-      <input type="text" placeholder="Nombre Completo">
+      <label for="nombre">Nombre Completo</label>
+      <input type="text" placeholder="Bruno Diaz" id="nombre">
     </div>
     <div class="form-input">
-      <input type="email" placeholder="Correo Electronico">
+      <label for="email">Correo Electronico</label>
+      <input type="email" placeholder="Ejemplo@gmail.com" id="email">
     </div>
     <div class="form-input">
-      <textarea rows="8" placeholder="Deja Tu Mensaje" maxlength="100"></textarea>
+      <label for="mensaje">Mensaje</label>
+      <textarea rows="8" placeholder="Deja Tu Mensaje..." maxlength="100" id="mensaje"></textarea>
     </div>
+    <div class="form-input">
+      <label>Acepto los terminos y condiciones
+        <input type="checkbox" class="checkbox"></div>
+      </label>
   </form>
 </body>
 </html>
