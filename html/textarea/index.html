@@ -9,6 +9,7 @@
 <body>
   <form>
     <h2>Formulario De Contacto</h2>
+    <!--SIMPLE INPUTS-->
     <div class="form-input">
       <label for="nombre">Nombre Completo</label>
       <input type="text" placeholder="Bruno Diaz" id="nombre">
@@ -17,6 +18,28 @@
       <label for="email">Correo Electronico</label>
       <input type="email" placeholder="Ejemplo@gmail.com" id="email">
     </div>
+  <!--SELECT & OPTION-->
+    <div class="form-input">
+      <label>Tipo de Usario
+        <select name="type-of-user">
+          <option value="user1">Seguidor/a</option>
+          <option value="user2">Empresa</option>
+          <option value="user3">Otros</option>
+        </select>
+      </label>
+    </div>
+    <!--DATALIST & OPTION-->
+    <div class="form-input">
+      <label>Referente
+        <input list="referente" name="referente">
+        <datalist id="referente" name="type-of-user">
+          <option value="Soy Dalto">Creador de contenido</option>
+          <option value="Una Empresa">Una empresa del rubro IT</option>
+          <option value="Un Amigo">Me recomendo un amigo</option>
+        </datalist>
+      </label>
+    </div>
+    <!--TEXTAREA-->
     <div class="form-input">
       <label for="mensaje">Mensaje</label>
       <textarea rows="8" placeholder="Deja Tu Mensaje..." maxlength="100" id="mensaje"></textarea>
