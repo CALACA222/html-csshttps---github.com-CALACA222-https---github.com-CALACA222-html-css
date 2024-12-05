@@ -1,0 +1,25 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+details {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  margin: 10px;
+  font-size: 1em;
+}
+summary {
+  background-color: transparent;
+  color: #ddd;
+}
+ul {
+  color: #aaa;
+  font-size: 1.2em;
+}
+p {
+  color: #aaa;
+  font-size: 1.2em;
+}
