@@ -2,14 +2,19 @@
 img[src="camisetas.jpeg"] {
   width: 100%;
 }
-li {
+/*Selector decendiente*/
+ul li {
   color: #333;
 }
 /**Selector por hijo directo*/
 li > em {
   color: #ff0000;
 }
-/*Selectores adyacente*/
+/*Selectores de hermano adyacente*/
 h1 + p {
-  color: #00f;
+  background: #00f;
+}
+/*Selecotr de hermanos generales*/
+h1 ~ p {
+  color: #0f0;
 }
