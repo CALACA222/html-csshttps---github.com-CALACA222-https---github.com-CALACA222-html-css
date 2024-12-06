@@ -1,0 +1,8 @@
+/*Selctor por atributo*/
+img[src="camisetas.jpeg"] {
+  width: 100%;
+}
+/**Selector por hijo directo*/
+li > em {
+  color: #ff0000;
+}
