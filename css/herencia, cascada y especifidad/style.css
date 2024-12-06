@@ -1,0 +1,14 @@
+/*Herencia*/
+body {
+  color: #bf0;
+  font-family: sans-serif;
+}
+div {
+  color:blue;
+}
+h1 {
+  color:red;
+}
+p {
+  color:inherit;
+}
