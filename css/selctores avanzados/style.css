@@ -2,7 +2,14 @@
 img[src="camisetas.jpeg"] {
   width: 100%;
 }
+li {
+  color: #333;
+}
 /**Selector por hijo directo*/
 li > em {
   color: #ff0000;
+}
+/*Selectores adyacente*/
+h1 + p {
+  color: #00f;
 }
