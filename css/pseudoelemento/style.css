@@ -1,0 +1,19 @@
+div {
+  padding: 20px;
+}
+h1::first-letter {
+  color: #f00;
+  font-size: 3em;
+  letter-spacing: -10px;
+}
+div::first-line {
+  color: #f00;
+  font-weight: bold;
+}
+h1::selection {
+  color: #f00;
+  background: #000;
+}
+input::placeholder {
+  color: #0f0;
+}
