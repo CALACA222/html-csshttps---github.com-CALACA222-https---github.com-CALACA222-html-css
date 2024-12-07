@@ -1,0 +1,74 @@
+h1 {
+  color: #84e;
+  font-family: sans-serif;
+  margin: 30px;
+}
+/*Cuando Pasamos el mause por encima de h1*/
+h1:hover {
+  color: #488;
+  background: #000;
+}
+/*MIentras se este clikendo h1*/
+h1:active {
+  background: #999;
+  color: #fff;
+}
+/*seleccionado el primer li*/
+li:first-child {
+  color: #f00;
+}
+/*seleccionamos un lemento si un elemento no*/
+li:nth-child(2n) {
+  color: #0f0;
+  background: #f00;
+}
+/*seleccionado al tercer li*/
+li:nth-child(3) {
+  color: #67e;
+}
+/*seleccionado el ultimo li*/
+li:last-child {
+  color: #00f;
+}
+/*seleccionando el segundo li ignorando cualquier otro elemento que este entre el ul y el li*/
+li:nth-of-type(2) {
+  color: brown;
+}
+/*seleccionando los li que tengan la clase list, pero excluyendo a los elementos que con la clase excluir*/
+.list li:not(.excluir) {
+  color: #fff;
+}
+/*seleccionadno div*/
+div {
+  border: 5px solid #dd3;
+}
+/*seleccionando el div en caso de que este vacio*/
+div:empty {
+  background: #84e;
+  padding: 30px;
+}
+/*seudo clases para que cambie el estilo del elemento depsues de haber sido seleccionado*/
+/*elemento aun no selccionado*/
+input[type="checkbox"] {
+  margin: 110px;
+}
+/*elemento ya selccionado*/
+input[type="checkbox"]:checked {
+  margin: 5px;
+}
+/*Seleccionado enlaces no vitados*/
+a:link {
+  color: #f00;
+}
+/*Seleccionado enlaces ya vitados*/
+a:link {
+  color: #0f0;
+}
+/*para cambiar el estilo de un input si esta mal llenado mejor dicho input invalidos*/
+input:invalid {
+  color: #f00;
+}
+/*para cambiar el estilo de un input si esta bien llenado o mejor dicho input validos */
+input:valid {
+  color: #640dd6;
+}
