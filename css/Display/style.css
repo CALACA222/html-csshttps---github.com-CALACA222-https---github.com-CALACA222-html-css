@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+/*display block permite convertir a cuaqlquier elemnto que no sea un bloke en bloque*/
+/*
+a {
+  background-color: #f00;
+  color: #fff;
+  display: block;
+  border: 1px solid #000;
+  margin: 20px;
+  padding: 20px;
+}
+*/
+
+/*display inline nos permite convertir a calquier elemento que no es linea en un elemnto de linea*/
+/*
+p {
+  background-color: #000;
+  color: #fff;
+  display: inline;
+  margin: 3px;
+}
+*/
+.nav {
+  background-color: #48e;
+}
+.nav__list {
+  margin: 0;
+  text-align: center;
+}
+.nav__item {
+  display: inline-block;
+}
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  background-color: #48e;
+}
+.nav__link:hover {
+  background: #6af;
+}
+.link--button {
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 6px 12px;
+  color: #48e;
+  border-radius: 4px;
+  margin-left: 70px;
+}
+.link--button:hover {
+  background-color: transparent;
+  color: #000;
+}
