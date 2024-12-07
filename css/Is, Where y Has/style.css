@@ -1,0 +1,34 @@
+section .elemento1,
+section .elemento2,
+section .elemento3 {
+  color: #f00;
+}
+/*le da una espesifidad al selctor */
+section :is(.elemento1, .elemento2, .elemento3) {
+  color: #00f;
+}
+/*no le da una espesifidad al selector*/
+section :where {
+  color: #0f0;
+}
+/*Le da la propiedad a todo el section si es que el elemnto seleccionado se encutra dentro del section*/
+section:has(.elemento1) {
+  background: #000;
+  color: #fff;
+}
+/*asi se selecciona el div que le sigue a un ul y asi le da solo las propiedades alos div que siguen despues de un ul*/
+ul + div {
+  background-color: #0f0;
+}
+/*y asi se cambia las propiedades si al ul le sigue un div*/
+ul:has(+div) {
+  background: #00f;
+}
+/*para validar un input con el label si esta llenado de manera correcta */
+label:has(input:valid) {
+  color: #0f0;
+}
+/*para invalidar un input con el label si esta llena de ,anefra incorrecta*/
+label:has(input:invalid) {
+  color: #f00;
+}
