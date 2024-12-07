@@ -16,4 +16,17 @@ h1::selection {
 }
 input::placeholder {
   color: #0f0;
+  background: #00f;
+  padding: 30px;
+}
+li::marker {
+  color: #2e4;
+}
+li::before {
+  content: "elemento:";
+  color: #2e4;
+}
+li::after {
+  content: "despues";
+  color: #e12f24;
 }
