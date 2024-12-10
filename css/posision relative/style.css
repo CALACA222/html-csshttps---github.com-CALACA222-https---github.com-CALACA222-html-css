@@ -1,0 +1,24 @@
+body {
+  background: #ededed;
+
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: #fa0;
+  color: #ffa;
+  position: relative;
+  z-index: 2;
+}
+.Blue {
+  background: #00f;
+  top: -60px;
+  left: 50px;
+  z-index: 4;
+}
+.Rosa {
+  background: #fab;
+  top: -120px;
+  left: 100px;
+  z-index: 6;
+}
