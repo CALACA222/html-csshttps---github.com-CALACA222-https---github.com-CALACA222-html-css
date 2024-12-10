@@ -1,0 +1,28 @@
+body {
+  background: #ededed;
+  margin: 0;
+  font-family:sans-serif ;
+  text-align: center;
+}
+.container {
+  border:5px solid #000;
+  margin: 30px 50px;
+  background: #fff;
+  position: relative;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: #fa0;
+  color: #ffe;
+}
+.blue {
+  background: #00f;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.red {
+  background: #f00;
+}
