@@ -6,16 +6,15 @@ body {
   width: 200px;
   height: 200px;
   background: #f00;
-  margin: auto;
-  margin-top: 50px;
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  transition-delay:2s ;
-  transition-property: color;
-  transition-duration:1s;
-  color: #f00;
+  transition-property:  left, border;
+  transition-duration: 1s;
+  margin-top: 0;
+  position: relative;
+  left: 0;
 }
-.box:hover {
-  color: #fff;
-}
+body:hover .box {
+    background-color: #00f;
+    border-radius: 50%;
+    margin-top: 100px;
+    left: 200px;
+  }
