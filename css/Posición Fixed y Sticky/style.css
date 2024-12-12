@@ -17,12 +17,27 @@ body {
   border: 1px solid #000;
   box-shadow: 0 0  10px #000;
   border-radius: 10px;
-  z-index: 50px;
+  z-index: 4px;
+}
+.box-fixed {
+  height: 60px;
+  width: 200px;
+  background-color: #f00;
+  position: sticky;
+  top:30px;
+}
+.first {
+  background-color: #0f0;
+  top:90px;
+}
+.last {
+  background-color: #00f;
+  top:150px;
 }
 .overlay {
   background: linear-gradient(to top, #fff, transparent);
   position: absolute;
-  z-index: 2;
+  z-index: 0;
   width: 100%;
   bottom: 0;
   height: 100%;
