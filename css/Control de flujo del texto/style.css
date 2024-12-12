@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #bbb;
+}
+.box {
+  width: 240px;
+  height: 50px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #fff;
+  border: 1px solid #0006; 
+  white-space: normal;
+  overflow: hidden;
+  word-break: auto-phrase;
+}
+h1 {
+  text-wrap: balance;
+}
