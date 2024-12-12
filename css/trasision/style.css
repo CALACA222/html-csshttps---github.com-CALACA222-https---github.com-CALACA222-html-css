@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background: #f00;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  transition-delay:2s ;
+  transition-property: color;
+  transition-duration:1s;
+  color: #f00;
+}
+.box:hover {
+  color: #fff;
+}
